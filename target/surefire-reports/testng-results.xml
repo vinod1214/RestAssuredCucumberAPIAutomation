@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="3552" started-at="2020-06-09T17:16:21 IST" finished-at="2020-06-09T17:16:24 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@3e9b1010]" name="feature" class="testRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="3552" started-at="2020-06-09T17:16:21 IST" finished-at="2020-06-09T17:16:24 IST">
+      <class name="testRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@3e9b1010]" name="setUpClass" is-config="true" duration-ms="162" started-at="2020-06-09T17:16:21 IST" finished-at="2020-06-09T17:16:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@3e9b1010]" name="feature" duration-ms="2508" started-at="2020-06-09T17:16:21 IST" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2020-06-09T17:16:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify user details - Delete Method"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify API Automation with Rest Assured"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@3e9b1010]" name="feature" duration-ms="78" started-at="2020-06-09T17:16:23 IST" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2020-06-09T17:16:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify Rest service - GET Method"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify API Automation with Rest Assured"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@3e9b1010]" name="feature" duration-ms="43" started-at="2020-06-09T17:16:24 IST" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2020-06-09T17:16:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify user details - Get Method"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify API Automation with Rest Assured"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@3e9b1010]" name="feature" duration-ms="581" started-at="2020-06-09T17:16:24 IST" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2020-06-09T17:16:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify Rest service - PATCH Method"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify API Automation with Rest Assured Service"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@3e9b1010]" name="feature" duration-ms="35" started-at="2020-06-09T17:16:24 IST" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2020-06-09T17:16:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify Rest service - POST Method"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify API Automation with Rest Assured Service"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@3e9b1010]" name="tearDownClass" is-config="true" duration-ms="63" started-at="2020-06-09T17:16:24 IST" finished-at="2020-06-09T17:16:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="html_report()[pri:0, instance:testRunner.TestRunner@3e9b1010]" name="html_report" is-config="true" duration-ms="3479" started-at="2020-06-09T17:16:24 IST" finished-at="2020-06-09T17:16:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- html_report -->
+        <test-method status="PASS" signature="sendMail()[pri:0, instance:testRunner.TestRunner@3e9b1010]" name="sendMail" is-config="true" duration-ms="11646" started-at="2020-06-09T17:16:28 IST" finished-at="2020-06-09T17:16:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMail -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

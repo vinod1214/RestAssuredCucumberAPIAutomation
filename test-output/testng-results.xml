@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2776" started-at="2020-06-06T13:30:11 IST" finished-at="2020-06-06T13:30:14 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@1a8a8f7c]" name="feature" class="testRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="2776" started-at="2020-06-06T13:30:11 IST" finished-at="2020-06-06T13:30:14 IST">
+      <class name="testRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@1a8a8f7c]" name="setUpClass" is-config="true" duration-ms="181" started-at="2020-06-06T13:30:11 IST" finished-at="2020-06-06T13:30:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@1a8a8f7c]" name="feature" duration-ms="2455" started-at="2020-06-06T13:30:12 IST" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2020-06-06T13:30:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify Rest service - GET Method"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify API Automation with Rest Assured"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@1a8a8f7c]" name="tearDownClass" is-config="true" duration-ms="34" started-at="2020-06-06T13:30:14 IST" finished-at="2020-06-06T13:30:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="html_report()[pri:0, instance:testRunner.TestRunner@1a8a8f7c]" name="html_report" is-config="true" duration-ms="1697" started-at="2020-06-06T13:30:14 IST" finished-at="2020-06-06T13:30:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- html_report -->
+        <test-method status="PASS" signature="sendMail()[pri:0, instance:testRunner.TestRunner@1a8a8f7c]" name="sendMail" is-config="true" duration-ms="11857" started-at="2020-06-06T13:30:16 IST" finished-at="2020-06-06T13:30:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMail -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,277 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To verify user details - Delete Method",
+        "description": "",
+        "id": "to-verify-api-automation-with-rest-assured;to-verify-user-details---delete-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 510940700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to execute deleteUser endpoint",
+            "match": {
+              "location": "DeleteRequestStepDefinition.i_want_to_execute_deleteUser_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1844937800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I submit the Delete request of particular user and verify response",
+            "match": {
+              "location": "DeleteRequestStepDefinition.i_submit_the_Delete_request_of_particular_user_and_verify_response()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@deleteUser"
+          }
+        ]
+      }
+    ],
+    "name": "To verify API Automation with Rest Assured",
+    "description": "",
+    "id": "to-verify-api-automation-with-rest-assured",
+    "keyword": "Feature",
+    "uri": "file:features/delete.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To verify Rest service - GET Method",
+        "description": "",
+        "id": "to-verify-api-automation-with-rest-assured;to-verify-rest-service---get-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 65900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to execute getUsersList endpoint",
+            "match": {
+              "location": "GetRequestStepDefinition.i_want_to_execute_getUsersList_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23320100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I submit the GET request",
+            "match": {
+              "location": "GetRequestStepDefinition.i_submit_the_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53017500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate the response body",
+            "match": {
+              "location": "GetRequestStepDefinition.i_validate_the_response_body()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@getUsers"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "To verify user details - Get Method",
+        "description": "",
+        "id": "to-verify-api-automation-with-rest-assured;to-verify-user-details---get-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to execute getUser endpoint",
+            "match": {
+              "location": "GetUserStepDefinition.i_want_to_execute_getUser_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26635600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I submit the Get request of particular user",
+            "match": {
+              "location": "GetUserStepDefinition.i_submit_the_GET_request_of_particular_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15742900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I validate the response of user",
+            "match": {
+              "location": "GetUserStepDefinition.i_validate_the_response_of_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@getUser"
+          }
+        ]
+      }
+    ],
+    "name": "To verify API Automation with Rest Assured",
+    "description": "",
+    "id": "to-verify-api-automation-with-rest-assured",
+    "keyword": "Feature",
+    "uri": "file:features/get.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To verify Rest service - PATCH Method",
+        "description": "",
+        "id": "to-verify-api-automation-with-rest-assured-service;to-verify-rest-service---patch-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to execute patchUser endpoint",
+            "match": {
+              "location": "PatchRequestStepDefinition.i_want_to_execute_patchUser_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 581264100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I submit the PATCH request and validate the response",
+            "match": {
+              "location": "PatchRequestStepDefinition.i_submit_the_PATCH_request_and_validate_the_response()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@patchUser"
+          }
+        ]
+      }
+    ],
+    "name": "To verify API Automation with Rest Assured Service",
+    "description": "",
+    "id": "to-verify-api-automation-with-rest-assured-service",
+    "keyword": "Feature",
+    "uri": "file:features/patch.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To verify Rest service - POST Method",
+        "description": "",
+        "id": "to-verify-api-automation-with-rest-assured-service;to-verify-rest-service---post-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to execute postUser endpoint",
+            "match": {
+              "location": "PostRequestStepDefinition.i_want_to_execute_postUser_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33784900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I submit the POST request",
+            "match": {
+              "location": "PostRequestStepDefinition.i_submit_the_POST_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate the response",
+            "match": {
+              "location": "PostRequestStepDefinition.i_validate_the_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@postUser"
+          }
+        ]
+      }
+    ],
+    "name": "To verify API Automation with Rest Assured Service",
+    "description": "",
+    "id": "to-verify-api-automation-with-rest-assured-service",
+    "keyword": "Feature",
+    "uri": "file:features/post.feature",
+    "tags": []
+  }
+]
